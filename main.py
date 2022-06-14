@@ -15,7 +15,7 @@ for i in range(0,n):
   else:
     packagespre[dep]=[]
 
-result=[]
+result=[] 
 visited, cycle=set(), set()
 def dfs(crs):
   if crs in cycle:
